@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Alessio Santiago',
-  subtitle: 'Front-End and Mobile Developer',
+  subtitle: 'UX/UI Designer and Front-End Developer',
   cta: '',
 };
 
@@ -19,13 +19,22 @@ export const heroData = {
 export const aboutData = {
   img: 'Photo.jpg',
   paragraphOne: "I'm Alessio Santiago, and I graduated from Santa Clara University majoring in computer science with an emphasis in software.",
-  paragraphTwo: "I have technical experience in Android development using Java, game development using Unity and C#, and front-end development using HTML, CSS, JavaScript, and React.",
-  paragraphThree: ' ',
+  paragraphTwo: "I have professional experience in UX/UI design using Webflow and Figma, and professional front-end design experience using HTML, CSS, JavaScript, and React.",
+  paragraphThree: 'I have also had professional experience in game development using Unity and C#, and Android development using Java.',
   resume: '', // if no resume, the button will not show up
 }; //https://www.resumemaker.online/es.php
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'smartcourse.jpg',
+    title: 'Smart Course',
+    info: 'SmartCourse.io is a responsive website that serves as an online platform to help and guide people with ADHD and their caregivers (like parents, educators, and health professionals). This website was built using Webflow, HTML, CSS, and JavaScript',
+    info2: 'At Smart Course, I was the lead UX/UI designer and developer responsible for building the website, and fixing any issues on the live site. I was also responsible for deliverables such as sitemaps, low/high fidelity mockups, and prototypes using Figma, and conducting user testing and research.',
+    url: 'https://www.smartcourse.io/',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project1.jpg',
