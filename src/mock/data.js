@@ -30,9 +30,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'smartcourse.jpg',
     title: 'Smart Course',
-    info: 'SmartCourse.io is a responsive website that serves as an online platform to help and guide people with ADHD and their caregivers (like parents, educators, and health professionals). This website was built using Webflow, HTML, CSS, and JavaScript',
-    info2: 'At Smart Course, I was the lead UX/UI designer and developer responsible for building the website, and fixing any issues on the live site. I was also responsible for deliverables such as sitemaps, low/high fidelity mockups, and prototypes using Figma, and conducting user testing and research.',
+    info: 'A responsive website that serves as an online platform to help and guide people with ADHD and their caregivers (like parents, educators, and health professionals). This website was built using Webflow, HTML, CSS, and JavaScript',
+    info2: 'I was the lead UX/UI designer and developer responsible for creating a responsive website design and ensuring that the website was continually evolving and staying up to date with the latest design trends and user needs. I also developed sitemaps, low/high fidelity mockups, and prototypes, and conducted user testing and research to gather valuable insights and feedback',
     url: 'https://www.smartcourse.io/',
+    caseStudy:'https://www.canva.com/design/DAFayjAzVRY/qM1BteQx50_SgNgn4Hiy_Q/view?website#2:smart-course-evergreen-webinar',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -42,6 +43,7 @@ export const projectsData = [
     info: 'A mobile website designed to help recent prisoner releases in California obtain or reobtain government identification. Built using HTML, CSS, and JavaScript.',
     info2: 'View the site in responsive mode on your desktop or from your phone using the button below.',
     url: 'https://alessiosantiago.github.io/cal-reentry-id/',
+    caseStudy:'',
     repo: 'https://github.com/alessiosantiago/cal-reentry-id', // if no repo, the button will not show up
   },
   {
@@ -51,6 +53,7 @@ export const projectsData = [
     info: "An Android game designed with Unity and C# to promote Nestlé's Kit-Kat chocolate bar.",
     info2: 'I was also responsible for testing and debugging the game before submitting the final product',
     url: 'https://youtu.be/ID6FXbvROf4',
+    caseStudy:'',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -60,6 +63,7 @@ export const projectsData = [
     info: 'Similar to the project above, I used Unity and C# to build an Android game designed for Nestlé to promote their Koko Krunch cereal',
     info2: 'Tested and debugged the game before submitting the final product',
     url: 'https://www.youtube.com/shorts/Juul4soUf7w',
+    caseStudy:'',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -69,6 +73,7 @@ export const projectsData = [
     info: "A website designed to help identify and analyze mask usage in the user's establishment.",
     info2: 'Ensured that the product provided a great and efficient experience for users.',
     url: 'https://www.youtube.com/watch?v=RohIMm6WtV0',
+    caseStudy:'',
     repo: '', // if no repo, the button will not show up
   }
 ];
