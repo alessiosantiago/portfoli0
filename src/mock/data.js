@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Photo.jpg',
-  paragraphOne: "I'm Alessio Santiago, and I graduated from Santa Clara University majoring in computer science with an emphasis in software.",
+  paragraphOne: "I'm Alessio Santiago, a software engineer with a background in computer science and a focus on software development, including back-end systems, database design, and user interface development.",
   paragraphTwo: "I have professional experience in back-end development using Java and SQL, including maintaining large-scale systems, performing database operations, and contributing to build automation using tools like Git and SVN.",
   paragraphThree: "In addition, I have front-end development experience with HTML, CSS, JavaScript, and React, as well as UX/UI design expertise using Webflow and Figma.",
   paragraphFour: 'I have also had professional experience in game development using Unity and C#, and Android development using Java.',
