@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'nys.svg',
+    img: 'nys.png',
     title: 'New York State Unified Court System',
     info: 'An enterprise-level internal application (Universal Case Management System) used across all levels of New York State courts to manage court case data, documents, and workflow processes.',
     info2: 'I was a computer applications programmer contributing to back-end development using Java and SQL, performing database updates and schema changes, and enhancing system functionality without disrupting court operations. I also developed court forms using the OOXML standard, collaborated on migrating build scripts from Groovy to Kotlin, and used Git and SVN for version control in a multi-developer environment.',
