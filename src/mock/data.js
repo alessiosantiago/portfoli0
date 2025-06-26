@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Alessio Santiago',
-  subtitle: 'UX/UI Designer and Front-End Developer',
+  subtitle: 'Full-Stack Developer & UX/UI Designer',
   cta: '',
 };
 
@@ -19,13 +19,34 @@ export const heroData = {
 export const aboutData = {
   img: 'Photo.jpg',
   paragraphOne: "I'm Alessio Santiago, and I graduated from Santa Clara University majoring in computer science with an emphasis in software.",
-  paragraphTwo: "I have professional experience in UX/UI design using Webflow and Figma, and professional front-end design experience using HTML, CSS, JavaScript, and React.",
-  paragraphThree: 'I have also had professional experience in game development using Unity and C#, and Android development using Java.',
+  paragraphTwo: "I have professional experience in back-end development using Java and SQL, including maintaining large-scale systems, performing database operations, and contributing to build automation using tools like Git and SVN.",
+  paragraphThree: "In addition, I have front-end development experience with HTML, CSS, JavaScript, and React, as well as UX/UI design expertise using Webflow and Figma.",
+  paragraphFour: 'I have also had professional experience in game development using Unity and C#, and Android development using Java.',
   resume: '', // if no resume, the button will not show up
 }; //https://www.resumemaker.online/es.php
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'nys.svg',
+    title: 'New York State Unified Court System',
+    info: 'An enterprise-level internal application (Universal Case Management System) used across all levels of New York State courts to manage court case data, documents, and workflow processes.',
+    info2: 'I was a computer applications programmer contributing to back-end development using Java and SQL, performing database updates and schema changes, and enhancing system functionality without disrupting court operations. I also developed court forms using the OOXML standard, collaborated on migrating build scripts from Groovy to Kotlin, and used Git and SVN for version control in a multi-developer environment.',
+    url: '',
+    caseStudy:'',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'circus.png',
+    title: 'Jillian\'s Circus',
+    info: 'A collection of responsive e-commerce websites built for a diverse set of small business clients, each with unique branding, product offerings, and customer needs. These websites were designed to optimize the shopping experience and drive online sales.',
+    info2: 'I was the lead UX/UI designer and front-end developer responsible for designing and implementing visually engaging, responsive storefronts using tools like WordPress, Wix, Squarespace, HTML, CSS, and JavaScript. I conducted user research through interviews, created sitemaps and Figma prototypes, and worked directly with clients to align design decisions with their business goals.',
+    url: '',
+    caseStudy:'',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'smartcourse.jpg',
