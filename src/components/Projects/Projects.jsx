@@ -49,15 +49,18 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
-  
+
+                      {url && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={url}
+                        >
+                          See Live
+                        </a>
+                      )}
+
                       {caseStudy && (
                         <a
                           target="_blank"
@@ -91,12 +94,32 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
+                      {url ? (
+                        <a
+                          href={url}
+                          target="_blank"
+                          aria-label="Project Link"
+                          rel="noopener noreferrer"
+                        >
+                          <Tilt
+                            options={{
+                              reverse: false,
+                              max: 8,
+                              perspective: 1000,
+                              scale: 1,
+                              speed: 300,
+                              transition: true,
+                              axis: null,
+                              reset: true,
+                              easing: 'cubic-bezier(.03,.98,.52,.99)',
+                            }}
+                          >
+                            <div data-tilt className="thumbnail rounded">
+                              <ProjectImg alt={title} filename={img} />
+                            </div>
+                          </Tilt>
+                        </a>
+                      ) : (
                         <Tilt
                           options={{
                             reverse: false,
@@ -114,7 +137,7 @@ const Projects = () => {
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
-                      </a>
+                      )}
                     </div>
                   </Fade>
                 </Col>
