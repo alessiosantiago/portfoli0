@@ -28,10 +28,10 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects and Experience" />
           {projects.map((project) => {
-            const { title, info, info2, url, caseStudy, repo, img, id } = project;
+            const { title, info, info2, url, caseStudy, repo, img, id, imgStyle, rowStyle } = project;
 
             return (
-              <Row key={id}>
+              <Row key={id} style={rowStyle}>
                 <Col lg={4} sm={12}>
                   <Fade
                     left={isDesktop}
@@ -65,7 +65,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={caseStudy}
                         >
                           Case Study
@@ -114,7 +114,7 @@ const Projects = () => {
                               easing: 'cubic-bezier(.03,.98,.52,.99)',
                             }}
                           >
-                            <div data-tilt className="thumbnail rounded">
+                            <div data-tilt className="thumbnail rounded" style={imgStyle}>
                               <ProjectImg alt={title} filename={img} />
                             </div>
                           </Tilt>
@@ -133,7 +133,7 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          <div data-tilt className="thumbnail rounded" style={imgStyle}>
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
